@@ -1,0 +1,58 @@
+body{
+  
+  background-color: #282c34;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.search-result{
+  font-size: medium;
+  margin: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+}
+
+.search-result:hover{
+  background-color: beige;
+  cursor: pointer;
+}
+
+.selected-result{
+  margin-top: 20vh;
+  background-color: aliceblue;
+  height: auto;
+  width: 50%;
+}
+
+.search-container{
+  margin-top: 10vh;
+  width: 50%;
+  display: grid;
+}
+
+.searchbar, .search-result{
+  text-align: justify;
+  height: 3rem;
+  box-sizing: border-box;
+  border: solid 0.5px black;
+  border-top: 0;
+}
+
+.search-results{
+  width: 100%;
+  position: absolute;
+  top: 0rem;
+}
+
+.search-results-container{
+  position: relative;
+}
