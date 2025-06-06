@@ -4,20 +4,14 @@ body{
 }
 
 .App {
-  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
+  min-height: 100vh;
 }
 
 .search-result{
   font-size: medium;
-  margin: 0;
-  width: 100%;
   background-color: white;
-  color: black;
   box-sizing: border-box;
 }
 
@@ -27,20 +21,19 @@ body{
 }
 
 .selected-result{
-  margin-top: 20vh;
+  margin: auto;
+  text-align: center;
   background-color: aliceblue;
-  height: auto;
   width: 50%;
 }
 
 .search-container{
+  margin: auto;
   margin-top: 10vh;
   width: 50%;
-  display: grid;
 }
 
 .searchbar, .search-result{
-  text-align: justify;
   height: 3rem;
   box-sizing: border-box;
   border: solid 0.5px black;
